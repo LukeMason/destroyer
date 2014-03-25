@@ -1,4 +1,3 @@
-
 WpDestroyer.version = 1; //bookmarket loader version
 
 
@@ -8,7 +7,7 @@ window.WpDestroyer.init = function() {
 	var style   = document.createElement( 'link' );
 	style.rel   = 'stylesheet';
 	style.type  = 'text/css';
-	style.href  = 'http://www.lukemason.co/wp/d/WpDestroyer.css?'+ Math.random();
+	style.href  = 'http://www.lukemason.co/wp/git/destroyer/WpDestroyer.css?'+ Math.random();
 	document.getElementsByTagName( 'head' )[0].appendChild( style );
 
 	//setup
