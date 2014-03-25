@@ -1,0 +1,110 @@
+#WpDestroyer{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9997;
+	cursor:crosshair;
+}
+#WpDestroyer #destroyerControlPlanel {
+	background-color: #111;
+	height: 75px;
+	width: 90%;
+	margin: auto;
+	z-index: 9999;
+	position: fixed;
+	top: 0;
+	left: 5%;
+	border: 2px solid #000;
+	cursor:default;
+
+}
+#WpDestroyer #destroyerControlPlanel select#destroyerControlPlanelTool {
+	font-size: 2em;
+	width: 200px;
+	padding: 10px;
+	margin: 10px;
+}
+#WpDestroyer .mark{
+	width: 10px;
+	height: 10px;
+	position: absolute;
+}
+
+/* paintballs */
+#WpDestroyer .mark.paintBall_1{
+	background-image: url('http://www.lukemason.co/wp/d/paintBall.png');
+	width: 340px;
+	height: 334px;
+ 	background-position-x: 345px;
+ 	opacity: 0.98;
+}
+
+#WpDestroyer .mark.paintBall_2{
+	background-image: url('http://www.lukemason.co/wp/d/paintBall.png');
+	width: 340px;
+	height: 340px;
+ 	background-position-x: 665px;
+ 	 opacity: 0.8;
+
+}
+
+#WpDestroyer .mark.paintBall_3{
+	background-image: url('http://www.lukemason.co/wp/d/paintBall.png');
+	width: 340px;
+	height: 340px;
+ 	background-position-x: 1025px;
+ 	opacity: 0.8;
+}
+
+#WpDestroyer .mark.paintBall_4{
+	background-image: url('http://www.lukemason.co/wp/d/paintBall.png');
+	width: 340px;
+	height: 340px;
+ 	background-position-x: 1375px;
+ 	opacity: 0.8;
+
+}
+
+#WpDestroyer .mark.paintBall_5{
+	background-image: url('http://www.lukemason.co/wp/d/paintBall.png');
+	width: 340px;
+	height: 340px;
+ 	background-position-x: 0px;
+ 	opacity: 0.98;
+}
+
+/* Hammers */
+#WpDestroyer .mark.hammer_1{
+	background-image: url('http://www.lukemason.co/wp/d/hammer.png');
+	width: 275px;
+	height: 230px;
+	background-position-x: 293px;
+	opacity: 0.98;
+}
+
+#WpDestroyer .mark.hammer_2{
+	background-image: url('http://www.lukemason.co/wp/d/hammer.png');
+	width: 214px;
+	height: 200px;
+	background-position-x: 479px;
+	opacity: 0.6;
+}
+
+#WpDestroyer .mark.hammer_3{
+	background-image: url('http://www.lukemason.co/wp/d/hammer.png');
+	width: 283px;
+	height: 221px;
+	background-position-x: 748px;
+	opacity: .9;
+}
+
+#WpDestroyer .mark.hammer_4{
+	background-image: url('http://www.lukemason.co/wp/d/hammer.png');
+	width: 243px;
+	height: 237px;
+	background-position-x: 986px;
+ 	opacity: 0.9;
+
+}
+

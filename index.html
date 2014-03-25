@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>wpDestroyer</title>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  </head>
+  <body>
+    <!-- page content -->
+    <a href="javascript:(function(){if (window.WpDestroyer) { return; }window.WpDestroyer = { };var version = 1,script  = document.createElement('script');script.setAttribute('type', 'text/javascript');script.setAttribute('charset', 'UTF-8');script.setAttribute('src', 'http://lukemason.co/wp/d/WpDestroyer.js?r=' + Math.random());document.documentElement.appendChild(script);script.onload = script.onreadystatechange = function() {    var rs = script.readyState;    if (!rs || rs === 'loaded' || rs === 'complete') {        script.onload = script.onreadystatechange = null;        if (version !== window.WpDestroyer.version) {            window.WpDestroyer.bookmarkletUpdate();        } else {            window.WpDestroyer.init();        }    }};}());" title="Wp-Destroyer Thing"> Wp-Destroyer Bookmarklet </a>
+
+    <p> Drag the above link into your bookmarks and then click to play, you can play here or on WP.com (I'll add in some logic that will eventually send you to wp if you try and use it elsewhere.) </p>
+  </body>
+</html>
